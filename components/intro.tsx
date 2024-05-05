@@ -42,20 +42,18 @@ export default function Intro() {
                 </motion.div>
             </div>
         </div>
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
             <span className='font-bold'>Hello, I'm William. </span> 
             I'm an aspiring 
-            <span className='font-bold'> Software Engineer. </span>
-            I enjoy building 
-            <span className="italic"> sites & apps. </span>
+            <span className='font-bold'> Software Developer. </span>
             My focus is 
             <span className="font-bold"> full-stack development </span> 
-            using modern web technolgies like{" "}
+            using modern web technologies like{" "}
             <span className="underline">React (Next.JS), Angular, and Spring Boot.</span>
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }}
