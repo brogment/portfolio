@@ -1,10 +1,6 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import capstoneImg from "@/public/class_diagram.png";
+import playlistImg from "@/public/missing_textures.png";
+import mapImg from "@/public/missing_textures.png";
 
 export const links = [
   {
@@ -34,25 +30,25 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Trip Planner",
+    title: "Travel Planner",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "My degree capstone project, a mobile app that allows users to log their travel plans, set reminders, and share their plans with others. Acted as designer, developer, and tester. ",
+    tags: ["Java", "XML", "Room", "JUnit"],
+    imageUrl: capstoneImg,
   },
   {
-    title: "Tech Shop",
+    title: "Playlist Finder",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Chrome extension that opens the playlists a youtube video is contained within with the click of a button. Features a Node.js back-end for security.",
+    tags: ["JavaScript", "HTML/CSS", "Node.js"],
+    imageUrl: playlistImg,
   },
   {
     title: "World Map",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Single page web-app that manipulates an SVG map of the word to display information about a country on mouseover.",
+    tags: ["Angular"],
+    imageUrl: mapImg,
   },
 ] as const;
 
@@ -63,11 +59,12 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Node.js",
   "Angular",
   "Git",
   "Tailwind",
   "Framer Motion",
-  "MySQL",
+  "SQL",
   "Python",
   "Java",
   "Spring Boot",

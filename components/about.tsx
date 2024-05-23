@@ -18,16 +18,21 @@ export default function About() {
     >
         <SectionHeading>About Me</SectionHeading>
         <p className='mb-3'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+            Welcome to my personal website and showcase of my journey in programming! I'm William A. Brown.
+            I starting coding at an early age, as being homeschooled allowed me ample time to pursue various interests.
+        </p>
+        <p className='mb-3'>
+            In January of 2024 I finished my Bachelors of Science in Software Engineering from Western Governors University. Coursework included computer science fundamentals such as data structures 
+            and algorithms, calculus, as well as web and mobile app development in the front and back-end, working with databases, and UI and UX design principles.
+        </p>
+        <p className='mb-3'>
+            Since graduating, I've continued maintaining my skills by practicing Leetcode, and working on personal projects, the most recent of which
+            is a Chrome extension that adds missing features to the YouTube browsing experience.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+          A key takeaway I learned from being homeschooled, universities going online during COVID-19, and WGU is the ability to self-motivate and do research to solve problems
+          even with little guidance or experience with a tool or technology. If you're looking for a developer who can hit the ground running feel free to reach out through
+          the contact form on this page. Thanks!
         </p>
     </motion.section>
   )
